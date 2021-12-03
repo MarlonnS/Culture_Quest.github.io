@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    margin: 20px;
+}
+
+.row1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: grey;
+}
+
+.logo{
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Roboto Condensed;
+    font-size: 38px;
+    line-height: 1.5;
+}
+
+.nav-menu {
+    width: 620px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    line-height: 1.5;
+    border: #2071b2;
+
+}
+.nav-menu li {
+    list-style: none;
+    margin: 0px auto;
+    padding: 8px;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+section#descarga{
+    position: absolute;
+    top: 80px;
+    bottom: -620px;
+    width: 1519.5px;
+    height: 750px;
+}
+
+.text1{
+    position: absolute;
+    text-align: center;
+    left: 360px;
+    top: 160px;
+    font-family: Roboto Condensed;
+    font-size: 33px;
+    max-width: 860px;
+    color: #000000;
+}
+
+.text2{
+    position: absolute;
+    text-align: center;
+    left: 440px;
+    top: 420px;
+    font-family: Roboto Condensed;
+    font-size: 29px;
+    max-width: 670px;
+    color: #848484;
+}
+
+.btn1{
+    position: absolute;
+    text-align: center;
+    left: 679px;
+    top: 580px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    font-size: 20px;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+
+section#Dimensiones{
+    position: absolute;
+    top: 830px;
+    bottom: -620px;
+    width: 1519.5px;
+    height: 880px;
+}
+
+
+.fondo1{
+    position: absolute;
+    top: 10px;
+    background-size: cover;
+    z-index: 1;
+    width: 35px;
+    height: 35px;
+}
+
+.card-01{
+    background: #bbbbbb;
+    position: relative;
+    flex: 1;
+    top: 240px;
+    max-width: 600px;
+    height: 550px;
+    margin: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.text3{
+    position: absolute;
+    text-align: center;
+    left: 100px;
+    top: 55px;
+    font-family: Cooper Black;
+    font-size: 20px;
+    max-width: 300px;
+    color: #000000;
+}
+
+.p1{
+    position: absolute;
+    text-align: center;
+    left: 100px;
+    top: 180px;
+    font-size: 20px;
+    font-family: Roboto Slab;
+    max-width: 280px;
+    color: #3d3d3d;
+}
+
+.img1{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-size: cover;
+    z-index: 1;
+    width: 200px;
+    height: 210px;
+    border-radius: 150px;
+}
+
+section#canales{
+    position: absolute;
+    top: 1710px;
+    bottom: -620px;
+    width: 1519.5px;
+    height: 880px;
+}
+
+section#canales .text4{
+    position: absolute;
+    text-align: center;
+    left: 560px;
+    top: 120px;
+    font-family: Roboto Condensed;
+    font-size: 60px;
+    max-width: 860px;
+    color: #000000;
+}
+
+section#canales .text3{
+    position: absolute;
+    text-align: center;
+    left: 160px;
+    top: 55px;
+    font-family: Cooper Black;
+    font-size: 20px;
+    max-width: 300px;
+    color: #000000;
+}
+
+section#canales .p1{
+    position: absolute;
+    text-align: center;
+    left: 60px;
+    top: 120px;
+    font-size: 20px;
+    font-family: Roboto Slab;
+    max-width: 370px;
+    color: #3d3d3d;
+}
+
+.card-02{
+    background: #bbbbbb;
+    position: relative;
+    flex: 1;
+    top: 240px;
+    max-width: 600px;
+    height: 550px;
+    margin: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.text4{
+    position: absolute;
+    text-align: center;
+    left: 360px;
+    top: 120px;
+    font-family: Roboto Condensed;
+    font-size: 60px;
+    max-width: 860px;
+    color: #000000;
+}
+
+
+section#sobre-nosotros{
+    position: absolute;
+    top: 2590px;
+    bottom: -620px;
+    width: 1519.5px;
+    height: 880px;
+}
+
+section#sobre-nosotros .text4{
+    position: absolute;
+    text-align: center;
+    left: 560px;
+    top: 160px;
+    font-family: Roboto Condensed;
+    font-size: 60px;
+    max-width: 860px;
+    color: #000000;
+}
+
+section#sobre-nosotros .p1{
+    position: absolute;
+    text-align: center;
+    left: 90px;
+    top: 320px;
+    font-size: 40px;
+    font-family: Roboto Slab;
+    max-width: 1300px;
+    color: #3d3d3d;
+}
+
+section#contacto{
+    position: absolute;
+    top:3470px;
+    bottom: -620px;
+    width: 1519.5px;
+    height: 240px;
+    background: #bbbbbb;
+}
+
+section#contacto .nav-menu1{
+    width: 420px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    line-height: 1.5;
+    border: #2071b2;
+    top: 100px;
+    left: 50px;
+}
+
+section#contacto .nav-menu2{
+    width: 420px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    line-height: 1.5;
+    border: #2071b2;
+    top: 100px;
+    left: 800px;
+}
+
+
+
+
+.go-top-container {
+    position: fixed;
+    bottom: 3rem;
+    right: 2.5rem;
+    width: 6.6rem;
+    height: 6.4rem;
+    z-index: -1;
+}
+
+.go-top-button {
+    width: 0rem;
+    height: 0rem;
+    background: #2071b2;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.go-top-button i {
+    position: absolute;
+    font-size: 1.7rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.show {
+    z-index: 10;
+}
+
+.show .go-top-button {
+    animation: popup 0.3s ease-in-out;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: 11;
+}
+
+.show i {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 8rem;
+        height: 8rem;
+    }
+    100% {
+        width: 6.6rem;
+        height: 6.6rem;
+    }
+}
+
+
+
+
+
